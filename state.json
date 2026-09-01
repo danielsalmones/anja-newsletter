@@ -1,0 +1,425 @@
+{
+  "last_sent": "2026-09-01T22:25:35.444038+02:00",
+  "events": [
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/los-angeles-philharmonic-hollywood-bowl/",
+      "fecha_iso": "2026-09-01",
+      "orquesta": "Los Angeles Philharmonic Orchestra",
+      "programa": "Gibson, Bruch, Dvorak",
+      "solistas": "Bomsori, violin",
+      "sala": "Hollywood Bowl",
+      "ciudad": "Los Angeles",
+      "url": "https://anjabihlmaier.de/kalenderitem/los-angeles-philharmonic-hollywood-bowl/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/valencia-la-vall-duixo/",
+      "fecha_iso": "2026-09-11",
+      "orquesta": "Orquestra de la Comunitat Valenciana",
+      "programa": "Mussorgsky/ Ravel, Tschaikowski",
+      "solistas": "",
+      "sala": "L’Auditori Leopoldo Peñarroja",
+      "ciudad": "La Vall d'Uixo",
+      "url": "https://anjabihlmaier.de/kalenderitem/valencia-la-vall-duixo/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/valencia/",
+      "fecha_iso": "2026-09-12",
+      "orquesta": "Orquestra de la Comunitat Valenciana",
+      "programa": "Mussorgsky/Ravel, Tschaikowski",
+      "solistas": "",
+      "sala": "Teatre Calderón",
+      "ciudad": "Alcoi",
+      "url": "https://anjabihlmaier.de/kalenderitem/valencia/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/valencia-2/",
+      "fecha_iso": "2026-09-13",
+      "orquesta": "Orquestra de la Comunitat Valenciana",
+      "programa": "Mussorgsky/ Ravel, Tschaikowski",
+      "solistas": "",
+      "sala": "Palau de les Arts",
+      "ciudad": "Valencia",
+      "url": "https://anjabihlmaier.de/kalenderitem/valencia-2/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/bbc/",
+      "fecha_iso": "2026-09-25",
+      "orquesta": "BBC Philharmonic Orchestra",
+      "programa": "L. Boulanger, Brahms \"Ein deutsches Requiem\"",
+      "solistas": "Julia Grüter, soprano  / Joshua Hopkins, baritone / Audi Jugendchorakademie",
+      "sala": "Bridgewater Hall",
+      "ciudad": "Manchester",
+      "url": "https://anjabihlmaier.de/kalenderitem/bbc/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/brahms-requiem-linz/",
+      "fecha_iso": "2026-09-30",
+      "orquesta": "BRUCKNERFEST LINZ / BBC Philharmonic Orchestra / Audi Jugendchorakademie",
+      "programa": "Boulanger, Brahms \"Ein deutsches Requiem\"",
+      "solistas": "Julia Grüter , Sopran | Joshua Hopkins, Bariton",
+      "sala": "",
+      "ciudad": "Brucknerhaus Linz",
+      "url": "https://anjabihlmaier.de/kalenderitem/brahms-requiem-linz/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/bbc-dortmund-konzerthaus/",
+      "fecha_iso": "2026-10-02",
+      "orquesta": "BBC Philharmonic Orchestra ON TOUR in Germany/ Austria",
+      "programa": "Ligeti, Tschaikowsky, Beethoven",
+      "solistas": "Pablo Ferrández, violoncello",
+      "sala": "",
+      "ciudad": "Konzerthaus Dortmund",
+      "url": "https://anjabihlmaier.de/kalenderitem/bbc-dortmund-konzerthaus/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/beethovenfest-bonn/",
+      "fecha_iso": "2026-10-03",
+      "orquesta": "BBC Philharmonic Orchestra / Beethovenfest Bonn",
+      "programa": "Boulanger, Brahms",
+      "solistas": "Julia Grüter, Sopran / Josuha Hopkins, Bariton / Audi Jugendchorakademie",
+      "sala": "",
+      "ciudad": "Beethovenhalle Bonn",
+      "url": "https://anjabihlmaier.de/kalenderitem/beethovenfest-bonn/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/bbc-frankfurt-alte-oper/",
+      "fecha_iso": "2026-10-04",
+      "orquesta": "BBC Philharmonic Orchestra ON TOUR in Germany/ Austria",
+      "programa": "Ligeti, Tschaikowsky, Beethoven",
+      "solistas": "Pablo Ferrandez, violoncello",
+      "sala": "",
+      "ciudad": "Alte Oper Frankfurt",
+      "url": "https://anjabihlmaier.de/kalenderitem/bbc-frankfurt-alte-oper/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/jugendkonzert-muenchner-philharmoniker/",
+      "fecha_iso": "2026-10-15",
+      "orquesta": "Münchner Philharmoniker",
+      "programa": "Schostakowitsch, Zimmermann, Ravel",
+      "solistas": "Nicolas Altstaedt, violoncello / Malte Arkona, Moderator",
+      "sala": "Isarphilharmonie",
+      "ciudad": "München",
+      "url": "https://anjabihlmaier.de/kalenderitem/jugendkonzert-muenchner-philharmoniker/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/muenchner-philharmoniker-2/",
+      "fecha_iso": "2026-10-16",
+      "orquesta": "Münchner Philharmoniker",
+      "programa": "Strauß, Schostakowitsch , Zimmermann, Ravel",
+      "solistas": "Nicolas Altstaedt, violoncello",
+      "sala": "Isarphilharmonie",
+      "ciudad": "München",
+      "url": "https://anjabihlmaier.de/kalenderitem/muenchner-philharmoniker-2/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/muenchner-philharmoniker-3/",
+      "fecha_iso": "2026-10-18",
+      "orquesta": "Münchner Philharmoniker",
+      "programa": "Strauß, Schostakowitsch , Zimmermann, Ravel",
+      "solistas": "Nicolas Altstaedt, violoncello",
+      "sala": "Isarphilharmonie",
+      "ciudad": "München",
+      "url": "https://anjabihlmaier.de/kalenderitem/muenchner-philharmoniker-3/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/finnish-radio-symphony-orchestra-2/",
+      "fecha_iso": "2026-10-30",
+      "orquesta": "Finnish Radio Symphony Orchestra",
+      "programa": "Gubaidulina, Brahms/Schönberg",
+      "solistas": "Sergei Krylov, violin",
+      "sala": "",
+      "ciudad": "The Helsinki Music Centre",
+      "url": "https://anjabihlmaier.de/kalenderitem/finnish-radio-symphony-orchestra-2/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/mannheim-rosengarten/",
+      "fecha_iso": "2026-11-16",
+      "orquesta": "Nationaltheater-Orchester Mannheim",
+      "programa": "Mahler 9",
+      "solistas": "",
+      "sala": "Rosengarten",
+      "ciudad": "Mannheim",
+      "url": "https://anjabihlmaier.de/kalenderitem/mannheim-rosengarten/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/rosengarten-mannheim/",
+      "fecha_iso": "2026-11-17",
+      "orquesta": "Nationaltheater-Orchester Mannheim",
+      "programa": "Mahler 9",
+      "solistas": "",
+      "sala": "",
+      "ciudad": "Rosengarten Mannheim",
+      "url": "https://anjabihlmaier.de/kalenderitem/rosengarten-mannheim/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/war-requiem/",
+      "fecha_iso": "2026-11-27",
+      "orquesta": "B. BRITTEN: WAR REQUIEM",
+      "programa": "",
+      "solistas": "Ailish Tynan soprano, Laurence Kilsby tenor, Joshua Hopkins baritone, National Symphony Orchestra Ireland, National Symphony Chorus Ireland, RTÉ Concert Orchestra Choristers of St Patrick’s Cathedral",
+      "sala": "National Concert Hall",
+      "ciudad": "Dublin",
+      "url": "https://anjabihlmaier.de/kalenderitem/war-requiem/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/neujahrskonzert-berlin-konzerthausorchester/",
+      "fecha_iso": "2027-01-01",
+      "orquesta": "Konzerthausorchester Berlin",
+      "programa": "NEUJAHRSKONZERT / Dvorak, Rachmaninov, Puccini, Kodaly, Strauß",
+      "solistas": "Bruce Liu, Klavier",
+      "sala": "",
+      "ciudad": "Konzerthaus Berlin",
+      "url": "https://anjabihlmaier.de/kalenderitem/neujahrskonzert-berlin-konzerthausorchester/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-on-tour-2/",
+      "fecha_iso": "2027-01-13",
+      "orquesta": "London Philharmonic Orchestra (on Tour)",
+      "programa": "Tarrodi, Grieg, Sibelius",
+      "solistas": "Benjamin Grosvenor, piano",
+      "sala": "",
+      "ciudad": "Concertgebouw Brugge",
+      "url": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-on-tour-2/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/2458/",
+      "fecha_iso": "2027-01-14",
+      "orquesta": "London Philharmonic Orchestra (on Tour)",
+      "programa": "Tarrodi, Grieg, Sibelius",
+      "solistas": "Benjamin Grosvenor, piano",
+      "sala": "Bozar",
+      "ciudad": "Brussel",
+      "url": "https://anjabihlmaier.de/kalenderitem/2458/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-on-tour/",
+      "fecha_iso": "2027-01-15",
+      "orquesta": "London Philharmonic Orchestra (on Tour)",
+      "programa": "Tarrodi, Grieg, Sibelius",
+      "solistas": "Benjamin Grosvenor, piano",
+      "sala": "Theater Herleen",
+      "ciudad": "Netherlands",
+      "url": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-on-tour/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-orchestra-benelux-tour/",
+      "fecha_iso": "2027-01-16",
+      "orquesta": "London Philharmonic Orchestra (on Tour)",
+      "programa": "Grieg, Sibelius",
+      "solistas": "Benjamin Grosvenor, piano",
+      "sala": "Hertog Jan Zaal, Eindhoven",
+      "ciudad": "Netherlands",
+      "url": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-orchestra-benelux-tour/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-on-benelux-tour/",
+      "fecha_iso": "2027-01-17",
+      "orquesta": "London Philharmonic Orchestra (on Tour)",
+      "programa": "Tarrodi, Grieg, Sibelius",
+      "solistas": "Benjamin Grosvenor, piano",
+      "sala": "Tivoli Vredenburg, Utrecht",
+      "ciudad": "Netherlands",
+      "url": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-on-benelux-tour/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-orchestra/",
+      "fecha_iso": "2027-01-20",
+      "orquesta": "London Philharmonic Orchestra",
+      "programa": "Tarrodi, Mühlrad, Fröst, Sibelius",
+      "solistas": "Martin Fröst, clarinet",
+      "sala": "Queen Elizabeth Hall",
+      "ciudad": "London",
+      "url": "https://anjabihlmaier.de/kalenderitem/london-philharmonic-orchestra/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/st-louis-symphony/",
+      "fecha_iso": "2027-01-29",
+      "orquesta": "St. Louis Symphony Orchestra",
+      "programa": "Mel Bonis, Mozart, Strauss",
+      "solistas": "Yeol Eum Son, piano",
+      "sala": "Powell Hall at the Jack C. Taylor Music Center",
+      "ciudad": "St. Louis",
+      "url": "https://anjabihlmaier.de/kalenderitem/st-louis-symphony/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/st-louis-symphony-2/",
+      "fecha_iso": "2027-01-30",
+      "orquesta": "St. Louis Symphony Orchestra",
+      "programa": "Mel Bonis, Mozart, Strauss",
+      "solistas": "Yeol Eum Son, piano",
+      "sala": "Powell Hall at the Jack C. Taylor Music Center",
+      "ciudad": "St. Louis",
+      "url": "https://anjabihlmaier.de/kalenderitem/st-louis-symphony-2/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/yomiuri-symphony-orchestra/",
+      "fecha_iso": "2027-02-13",
+      "orquesta": "Yomiuri Nippon Symphony Orchestra",
+      "programa": "Ligeti, Schumann, Brahms",
+      "solistas": "Kate Liu, piano",
+      "sala": "",
+      "ciudad": "Tokyo Metropolitan Theatre",
+      "url": "https://anjabihlmaier.de/kalenderitem/yomiuri-symphony-orchestra/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/yomiuri-symphony-orchestra-2/",
+      "fecha_iso": "2027-02-19",
+      "orquesta": "Yomiuri Nippon Symphony Orchestra",
+      "programa": "Zimmermann, Barber, Schostakowitsch",
+      "solistas": "Hayato Kodama, trumpet",
+      "sala": "Suntory Hall",
+      "ciudad": "Tokyo",
+      "url": "https://anjabihlmaier.de/kalenderitem/yomiuri-symphony-orchestra-2/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/hamburger-philharmoniker/",
+      "fecha_iso": "2027-02-28",
+      "orquesta": "Philharmonisches Staatsorchester Hamburg",
+      "programa": "Gustav Mahler, Sinfonie Nr. 2 \"Auferstehung\"",
+      "solistas": "Audi Jugendchorakademie / Sarah Wegener, Sopran / Jess Dandy, Alt",
+      "sala": "",
+      "ciudad": "Elbphilharmonie Hamburg",
+      "url": "https://anjabihlmaier.de/kalenderitem/hamburger-philharmoniker/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/hamburger-philharmoniker-2/",
+      "fecha_iso": "2027-03-01",
+      "orquesta": "Philharmonisches Staatsorchester Hamburg",
+      "programa": "Gustav Mahler, Sinfonie Nr. 2 \"Auferstehung\"",
+      "solistas": "Audi Jugendchorakademie / Sarah Wegener, Sopran / Jess Dandy, Alt",
+      "sala": "",
+      "ciudad": "Elbphilharmonie Hamburg",
+      "url": "https://anjabihlmaier.de/kalenderitem/hamburger-philharmoniker-2/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/bbc-phil-3/",
+      "fecha_iso": "2027-03-13",
+      "orquesta": "BBC Philharmonic Orchestra / CBSO Chorus",
+      "programa": "Oliveros, Williams, Adams, Beethoven 9",
+      "solistas": "Ligeti String Quartett / Hera Hyesang Park, sopran / Jess Dandy, contralto / Robin Tritschler, tenor / Paul Grant, baritone",
+      "sala": "Bridgewater Hall",
+      "ciudad": "Manchester",
+      "url": "https://anjabihlmaier.de/kalenderitem/bbc-phil-3/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/dso-casual-concert/",
+      "fecha_iso": "2027-03-19",
+      "orquesta": "Deutsches Sinfonieorchester Berlin",
+      "programa": "Beethoven",
+      "solistas": "",
+      "sala": "",
+      "ciudad": "Philharmonie Berlin",
+      "url": "https://anjabihlmaier.de/kalenderitem/dso-casual-concert/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/dso-berlin/",
+      "fecha_iso": "2027-03-20",
+      "orquesta": "Deutsches Sinfonieorchester Berlin",
+      "programa": "Bacewicz, Adams, Beethoven",
+      "solistas": "Vision String Quartet",
+      "sala": "",
+      "ciudad": "Philharmonie Berlin",
+      "url": "https://anjabihlmaier.de/kalenderitem/dso-berlin/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/minnesota-1/",
+      "fecha_iso": "2027-04-09",
+      "orquesta": "Minnesota Orchestra",
+      "programa": "Wagner, Hartmann, Beethoven",
+      "solistas": "Veronika Eberle, violin",
+      "sala": "Orchestra Hall",
+      "ciudad": "Minneapolis",
+      "url": "https://anjabihlmaier.de/kalenderitem/minnesota-1/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/minnesota-2/",
+      "fecha_iso": "2027-04-10",
+      "orquesta": "Minnesota Orchestra",
+      "programa": "Wagner, Hartmann, Beethoven",
+      "solistas": "Veronika Eberle, violin",
+      "sala": "Orchestra Hall",
+      "ciudad": "Minneapolis",
+      "url": "https://anjabihlmaier.de/kalenderitem/minnesota-2/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/turku-philharmonic-orchestra/",
+      "fecha_iso": "2027-04-22",
+      "orquesta": "Turku Philharmonic Orchestra",
+      "programa": "Wagner Walküre 1. Act, Sibelius, Boulanger",
+      "solistas": "Silja Aalto, Sieglinde /  Bryan Register, Siegmund / Mika Kares, Hunding",
+      "sala": "Musiikkitalo Fuuga",
+      "ciudad": "Turku",
+      "url": "https://anjabihlmaier.de/kalenderitem/turku-philharmonic-orchestra/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/orquesta-nacionales-de-espana/",
+      "fecha_iso": "2027-05-21",
+      "orquesta": "Orquesta Nationales de Espana",
+      "programa": "Gubaidulina, Sibelius",
+      "solistas": "Sergej Krylov, violin",
+      "sala": "Auditorio Nacional de Música",
+      "ciudad": "Madrid",
+      "url": "https://anjabihlmaier.de/kalenderitem/orquesta-nacionales-de-espana/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/orquesta-nacionales-de-espana-2/",
+      "fecha_iso": "2027-05-22",
+      "orquesta": "Orquesta Nacionales de Espana",
+      "programa": "Gubaidulina, Sibelius",
+      "solistas": "Sergej Krylov, violin",
+      "sala": "Auditorio Nacional de Música",
+      "ciudad": "Madrid",
+      "url": "https://anjabihlmaier.de/kalenderitem/orquesta-nacionales-de-espana-2/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/orquesta-nacionales-de-espana-3/",
+      "fecha_iso": "2027-05-23",
+      "orquesta": "Orquesta Nacionales de Espana",
+      "programa": "Gubaidulina, Sibelius",
+      "solistas": "Sergej Krylov, violin",
+      "sala": "Auditorio Nacional de Música",
+      "ciudad": "Madrid",
+      "url": "https://anjabihlmaier.de/kalenderitem/orquesta-nacionales-de-espana-3/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/swedish-radio-4/",
+      "fecha_iso": "2027-06-04",
+      "orquesta": "Swedish Radio Symphony Orchestra",
+      "programa": "Wilson, Schumann, Brahms/Schönberg",
+      "solistas": "Christopher Parkes, Anna Ferriol de Ciurana, Pedro Silva, horn",
+      "sala": "Berwaldhallen",
+      "ciudad": "Stockholm",
+      "url": "https://anjabihlmaier.de/kalenderitem/swedish-radio-4/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/swedish-radio-symphony-orchestra/",
+      "fecha_iso": "2027-06-05",
+      "orquesta": "Swedish Radio Symphony Orchestra",
+      "programa": "Wilson, Schuman, Brahms/ Schönberg",
+      "solistas": "Christopher Park, Anna Ferriol de Ciurana, Pedro Silva, horn",
+      "sala": "Berwaldhallen",
+      "ciudad": "Stockholm",
+      "url": "https://anjabihlmaier.de/kalenderitem/swedish-radio-symphony-orchestra/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/wiener-symphoniker-3/",
+      "fecha_iso": "2027-06-19",
+      "orquesta": "Wiener Symphoniker",
+      "programa": "Ligeti, Schumann, Tschaikowsky",
+      "solistas": "Anastasia Kobekina, Violoncello",
+      "sala": "",
+      "ciudad": "Musikverein Wien",
+      "url": "https://anjabihlmaier.de/kalenderitem/wiener-symphoniker-3/"
+    },
+    {
+      "id": "https://anjabihlmaier.de/kalenderitem/wiener-symphoniker-2/",
+      "fecha_iso": "2027-06-20",
+      "orquesta": "Wiener Symphoniker",
+      "programa": "Ligeti, Schumann, Tschaikowsky",
+      "solistas": "Anastasia Kobekina, Violoncello",
+      "sala": "",
+      "ciudad": "Musikverein Wien",
+      "url": "https://anjabihlmaier.de/kalenderitem/wiener-symphoniker-2/"
+    }
+  ]
+}
