@@ -1,0 +1,50 @@
+name: Newsletter Anja Bihlmaier
+
+on:
+  schedule:
+    - cron: "0 8 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run parser tests
+        run: python newsletter.py test
+
+      - name: Run newsletter script
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_CC: ${{ secrets.EMAIL_CC }}
+        run: python newsletter.py
+
+      - name: Commit state.json if changed
+        if: success()
+        run: |
+          git config user.name "calendar-bot"
+          git config user.email "calendar-bot[bot]@users.noreply.github.com"
+          if git diff --quiet state.json; then
+            echo "state.json sin cambios."
+          else
+            git add state.json
+            git commit -m "Update state.json after newsletter send"
+            git push
+            echo "state.json commiteado."
+          fi
