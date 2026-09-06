@@ -1,24 +1,14 @@
 {
-  "last_sent": "2026-09-01T23:07:05.309302+02:00",
+  "last_sent": "2026-09-06T13:51:02.903131+02:00",
   "events": [
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/los-angeles-philharmonic-hollywood-bowl/",
-      "fecha_iso": "2026-09-01",
-      "orquesta": "Los Angeles Philharmonic Orchestra",
-      "programa": "Gibson, Bruch, Dvorak",
-      "solistas": "Bomsori, violin",
-      "sala": "Hollywood Bowl",
-      "ciudad": "Los Angeles",
-      "url": "https://anjabihlmaier.de/kalenderitem/los-angeles-philharmonic-hollywood-bowl/"
-    },
     {
       "id": "https://anjabihlmaier.de/kalenderitem/valencia-la-vall-duixo/",
       "fecha_iso": "2026-09-11",
       "orquesta": "Orquestra de la Comunitat Valenciana",
       "programa": "Mussorgsky/ Ravel, Tschaikowski",
       "solistas": "",
-      "sala": "L’Auditori Leopoldo Peñarroja",
-      "ciudad": "La Vall d'Uixo",
+      "sala": "",
+      "ciudad": "Auditori de Torrent",
       "url": "https://anjabihlmaier.de/kalenderitem/valencia-la-vall-duixo/"
     },
     {
@@ -27,8 +17,8 @@
       "orquesta": "Orquestra de la Comunitat Valenciana",
       "programa": "Mussorgsky/Ravel, Tschaikowski",
       "solistas": "",
-      "sala": "Teatre Calderón",
-      "ciudad": "Alcoi",
+      "sala": "",
+      "ciudad": "Palau Altea",
       "url": "https://anjabihlmaier.de/kalenderitem/valencia/"
     },
     {
