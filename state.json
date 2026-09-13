@@ -1,26 +1,6 @@
 {
-  "last_sent": "2026-09-06T13:51:02.903131+02:00",
+  "last_sent": "2026-09-13T14:59:10.139216+02:00",
   "events": [
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/valencia-la-vall-duixo/",
-      "fecha_iso": "2026-09-11",
-      "orquesta": "Orquestra de la Comunitat Valenciana",
-      "programa": "Mussorgsky/ Ravel, Tschaikowski",
-      "solistas": "",
-      "sala": "",
-      "ciudad": "Auditori de Torrent",
-      "url": "https://anjabihlmaier.de/kalenderitem/valencia-la-vall-duixo/"
-    },
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/valencia/",
-      "fecha_iso": "2026-09-12",
-      "orquesta": "Orquestra de la Comunitat Valenciana",
-      "programa": "Mussorgsky/Ravel, Tschaikowski",
-      "solistas": "",
-      "sala": "",
-      "ciudad": "Palau Altea",
-      "url": "https://anjabihlmaier.de/kalenderitem/valencia/"
-    },
     {
       "id": "https://anjabihlmaier.de/kalenderitem/valencia-2/",
       "fecha_iso": "2026-09-13",
