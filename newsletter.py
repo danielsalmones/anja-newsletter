@@ -198,7 +198,7 @@ CITY_FLAGS: dict[str, str] = {
     "kapstadt": "ZA", "cape town": "ZA", "johannesburg": "ZA",
     "kairo": "EG", "cairo": "EG",
 }
-
+CITY_FLAGS_NORM: dict[str, str] = {_n(k): v for k, v in CITY_FLAGS.items()}
 COUNTRY_NAMES: dict[str, str] = {
     "deutschland": "DE", "germany": "DE", "allemagne": "DE",
     "spanien": "ES", "españa": "ES", "spain": "ES", "espagne": "ES",
@@ -275,8 +275,8 @@ class Evento:
 
 def obtener_bandera(ciudad: str, texto_completo: str = "") -> str:
     norm = _n(ciudad)
-    if norm in CITY_FLAGS:
-        codigo = CITY_FLAGS[norm]
+    if norm in CITY_FLAGS_NORM:
+        codigo = CITY_FLAGS_NORM[norm]
         return FLAG_EMOJI.get(codigo, "🌍")
     texto_lower = texto_completo.lower()
     for nombre, codigo in COUNTRY_NAMES.items():
@@ -287,7 +287,7 @@ def obtener_bandera(ciudad: str, texto_completo: str = "") -> str:
 
 def es_espana(ciudad: str, texto_completo: str = "") -> bool:
     norm = _n(ciudad)
-    if norm in CITY_FLAGS and CITY_FLAGS[norm] == "ES":
+    if norm in CITY_FLAGS_NORM and CITY_FLAGS_NORM[norm] == "ES":
         return True
     texto_lower = texto_completo.lower()
     for nombre, codigo in COUNTRY_NAMES.items():
@@ -377,6 +377,17 @@ def scrape_eventos() -> list[Evento]:
     return unicos
 
 
+def _detectar_ciudad(texto: str) -> Optional[str]:
+    """Busca un nombre de ciudad conocido dentro de un texto de ubicación."""
+    norm = _n(texto)
+    palabras = norm.split()
+    for longitud in range(min(4, len(palabras)), 0, -1):
+        for inicio in range(len(palabras) - longitud + 1):
+            sub = " ".join(palabras[inicio:inicio + longitud])
+            if sub in CITY_FLAGS_NORM:
+                return " ".join(texto.split()[inicio:inicio + longitud])
+    return None
+
 def _parsear_bloque(bloque: BeautifulSoup) -> Optional[Evento]:
     h3 = bloque.find("h3")
     if not h3:
@@ -400,6 +411,14 @@ def _parsear_bloque(bloque: BeautifulSoup) -> Optional[Evento]:
                 ciudad = partes[1].strip()
             else:
                 ciudad = partes[0].strip()
+                sala = ""
+            # Si la ciudad no está en el diccionario, intentar
+            # detectar una ciudad conocida dentro del texto
+            if _n(ciudad) not in CITY_FLAGS_NORM:
+                detectada = _detectar_ciudad(texto_loc)
+                if detectada:
+                    ciudad = detectada
+                    sala = texto_loc.replace(detectada, "").strip().strip(",").strip()
             break
     url = ""
     link = bloque.find("a", class_="buttonlink")
@@ -476,7 +495,7 @@ def calcular_diff(
         ev_id = ev["id"]
         if ev_id not in ids_actuales:
             try:
-                fecha_ev = date.fromisoformat(ev["date"])
+                fecha_ev = date.fromisoformat(ev.get("fecha_iso") or ev.get("date", ""))
                 if fecha_ev >= hoy:
                     resultado.cancelados.append(ev)
             except (ValueError, KeyError):
@@ -591,13 +610,13 @@ def renderizar_email(eventos, diff, es_primera):
     if diff.cancelados:
         h.append('<p style="font-size:16px;font-weight:bold;margin:20px 0 8px 0;color:#721c24;">❌ Möglicherweise abgesagt</p>')
         for ev_c in diff.cancelados:
-            fs = ev_c.get("date", "")
+            fs = ev_c.get("fecha_iso") or ev_c.get("date", "")
             if fs:
                 try: fs = fecha_alemana_iso(fs)
                 except ValueError: pass
-            orq = ev_c.get("orchestra", "")
-            ciu = ev_c.get("city", "")
-            sal = ev_c.get("venue", "")
+            orq = ev_c.get("orquesta") or ev_c.get("orchestra", "")
+            ciu = ev_c.get("ciudad") or ev_c.get("city", "")
+            sal = ev_c.get("sala") or ev_c.get("venue", "")
             ubi = f"{sal}, {ciu}".strip(", ")
             h.append(f'<div style="margin:0 0 8px 0;padding:10px 14px;background:#f8d7da;border-radius:6px;font-size:14px;"><span style="font-weight:bold;">{fs}</span>{f" · {orq}" if orq else ""}{f"<br>{ubi}" if ubi else ""}</div>')
     h.append('<p style="font-size:16px;font-weight:bold;margin:24px 0 8px 0;color:#333;">Konzerte in Spanien 🇪🇸</p>')
@@ -636,13 +655,13 @@ def renderizar_email(eventos, diff, es_primera):
         t.append("❌ Möglicherweise abgesagt")
         t.append("━" * 50)
         for ev_c in diff.cancelados:
-            fs = ev_c.get("date", "")
+            fs = ev_c.get("fecha_iso") or ev_c.get("date", "")
             if fs:
                 try: fs = fecha_alemana_iso(fs)
                 except ValueError: pass
-            orq = ev_c.get("orchestra", "")
-            ciu = ev_c.get("city", "")
-            sal = ev_c.get("venue", "")
+            orq = ev_c.get("orquesta") or ev_c.get("orchestra", "")
+            ciu = ev_c.get("ciudad") or ev_c.get("city", "")
+            sal = ev_c.get("sala") or ev_c.get("venue", "")
             ubi = f"{sal}, {ciu}".strip(", ")
             t.append(f"  {fs}{f' · {orq}' if orq else ''}")
             if ubi: t.append(f"  {ubi}")
@@ -782,8 +801,8 @@ def test_parser():
     assert ev3.fecha_iso == "2025-12-03"
     assert ev3.url == ""
     assert ev3.id.startswith("hash:")
-    assert ev3.sala == ""
-    assert ev3.ciudad == "Philharmonie Berlin"
+    assert ev3.sala == "Philharmonie"
+    assert ev3.ciudad == "Berlin"
     assert obtener_bandera("Los Angeles") == "🇺🇸"
     assert obtener_bandera("Valencia") == "🇪🇸"
     assert obtener_bandera("Philharmonie Berlin") == "🌍"
