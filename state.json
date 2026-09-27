@@ -1,16 +1,6 @@
 {
-  "last_sent": "2026-09-20T14:46:25.607499+02:00",
+  "last_sent": "2026-09-27T15:26:11.283683+02:00",
   "events": [
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/bbc/",
-      "fecha_iso": "2026-09-25",
-      "orquesta": "BBC Philharmonic Orchestra",
-      "programa": "L. Boulanger, Brahms \"Ein deutsches Requiem\"",
-      "solistas": "Julia Grüter, soprano  / Joshua Hopkins, baritone / Audi Jugendchorakademie",
-      "sala": "Bridgewater Hall",
-      "ciudad": "Manchester",
-      "url": "https://anjabihlmaier.de/kalenderitem/bbc/"
-    },
     {
       "id": "https://anjabihlmaier.de/kalenderitem/brahms-requiem-linz/",
       "fecha_iso": "2026-09-30",
