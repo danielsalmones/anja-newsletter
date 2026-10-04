@@ -1,36 +1,6 @@
 {
-  "last_sent": "2026-09-27T15:26:11.283683+02:00",
+  "last_sent": "2026-10-04T15:35:05.479231+02:00",
   "events": [
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/brahms-requiem-linz/",
-      "fecha_iso": "2026-09-30",
-      "orquesta": "BRUCKNERFEST LINZ / BBC Philharmonic Orchestra / Audi Jugendchorakademie",
-      "programa": "Boulanger, Brahms \"Ein deutsches Requiem\"",
-      "solistas": "Julia Grüter , Sopran | Joshua Hopkins, Bariton",
-      "sala": "Brucknerhaus",
-      "ciudad": "Linz",
-      "url": "https://anjabihlmaier.de/kalenderitem/brahms-requiem-linz/"
-    },
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/bbc-dortmund-konzerthaus/",
-      "fecha_iso": "2026-10-02",
-      "orquesta": "BBC Philharmonic Orchestra ON TOUR in Germany/ Austria",
-      "programa": "Ligeti, Tschaikowsky, Beethoven",
-      "solistas": "Pablo Ferrández, violoncello",
-      "sala": "Konzerthaus",
-      "ciudad": "Dortmund",
-      "url": "https://anjabihlmaier.de/kalenderitem/bbc-dortmund-konzerthaus/"
-    },
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/beethovenfest-bonn/",
-      "fecha_iso": "2026-10-03",
-      "orquesta": "BBC Philharmonic Orchestra / Beethovenfest Bonn",
-      "programa": "Boulanger, Brahms",
-      "solistas": "Julia Grüter, Sopran / Josuha Hopkins, Bariton / Audi Jugendchorakademie",
-      "sala": "Beethovenhalle",
-      "ciudad": "Bonn",
-      "url": "https://anjabihlmaier.de/kalenderitem/beethovenfest-bonn/"
-    },
     {
       "id": "https://anjabihlmaier.de/kalenderitem/bbc-frankfurt-alte-oper/",
       "fecha_iso": "2026-10-04",
