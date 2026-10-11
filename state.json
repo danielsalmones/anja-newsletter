@@ -1,16 +1,6 @@
 {
-  "last_sent": "2026-10-04T15:35:05.479231+02:00",
+  "last_sent": "2026-10-11T16:30:58.411808+02:00",
   "events": [
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/bbc-frankfurt-alte-oper/",
-      "fecha_iso": "2026-10-04",
-      "orquesta": "BBC Philharmonic Orchestra ON TOUR in Germany/ Austria",
-      "programa": "Ligeti, Tschaikowsky, Beethoven",
-      "solistas": "Pablo Ferrandez, violoncello",
-      "sala": "Alte Oper",
-      "ciudad": "Frankfurt",
-      "url": "https://anjabihlmaier.de/kalenderitem/bbc-frankfurt-alte-oper/"
-    },
     {
       "id": "https://anjabihlmaier.de/kalenderitem/jugendkonzert-muenchner-philharmoniker/",
       "fecha_iso": "2026-10-15",
