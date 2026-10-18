@@ -1,26 +1,6 @@
 {
-  "last_sent": "2026-10-11T16:30:58.411808+02:00",
+  "last_sent": "2026-10-18T14:19:30.423671+02:00",
   "events": [
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/jugendkonzert-muenchner-philharmoniker/",
-      "fecha_iso": "2026-10-15",
-      "orquesta": "Münchner Philharmoniker",
-      "programa": "Schostakowitsch, Zimmermann, Ravel",
-      "solistas": "Nicolas Altstaedt, violoncello / Malte Arkona, Moderator",
-      "sala": "Isarphilharmonie",
-      "ciudad": "München",
-      "url": "https://anjabihlmaier.de/kalenderitem/jugendkonzert-muenchner-philharmoniker/"
-    },
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/muenchner-philharmoniker-2/",
-      "fecha_iso": "2026-10-16",
-      "orquesta": "Münchner Philharmoniker",
-      "programa": "Strauß, Schostakowitsch , Zimmermann, Ravel",
-      "solistas": "Nicolas Altstaedt, violoncello",
-      "sala": "Isarphilharmonie",
-      "ciudad": "München",
-      "url": "https://anjabihlmaier.de/kalenderitem/muenchner-philharmoniker-2/"
-    },
     {
       "id": "https://anjabihlmaier.de/kalenderitem/muenchner-philharmoniker-3/",
       "fecha_iso": "2026-10-18",
