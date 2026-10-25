@@ -1,16 +1,6 @@
 {
-  "last_sent": "2026-10-18T14:19:30.423671+02:00",
+  "last_sent": "2026-10-25T13:52:29.989682+01:00",
   "events": [
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/muenchner-philharmoniker-3/",
-      "fecha_iso": "2026-10-18",
-      "orquesta": "Münchner Philharmoniker",
-      "programa": "Strauß, Schostakowitsch , Zimmermann, Ravel",
-      "solistas": "Nicolas Altstaedt, violoncello",
-      "sala": "Isarphilharmonie",
-      "ciudad": "München",
-      "url": "https://anjabihlmaier.de/kalenderitem/muenchner-philharmoniker-3/"
-    },
     {
       "id": "https://anjabihlmaier.de/kalenderitem/finnish-radio-symphony-orchestra-2/",
       "fecha_iso": "2026-10-30",
