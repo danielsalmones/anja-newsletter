@@ -1,16 +1,6 @@
 {
-  "last_sent": "2026-10-25T13:52:29.989682+01:00",
+  "last_sent": "2026-11-01T15:38:15.428178+01:00",
   "events": [
-    {
-      "id": "https://anjabihlmaier.de/kalenderitem/finnish-radio-symphony-orchestra-2/",
-      "fecha_iso": "2026-10-30",
-      "orquesta": "Finnish Radio Symphony Orchestra",
-      "programa": "Gubaidulina, Brahms/Schönberg",
-      "solistas": "Sergei Krylov, violin",
-      "sala": "The  Music Centre",
-      "ciudad": "Helsinki",
-      "url": "https://anjabihlmaier.de/kalenderitem/finnish-radio-symphony-orchestra-2/"
-    },
     {
       "id": "https://anjabihlmaier.de/kalenderitem/mannheim-rosengarten/",
       "fecha_iso": "2026-11-16",
